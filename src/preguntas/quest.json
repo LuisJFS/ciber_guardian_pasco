@@ -1,0 +1,143 @@
+{
+    "mision": {
+        "titulo": "Misión AVA: Guardián Cibernético de Pasco",
+        "tema": "Ciberseguridad y prevención de fraudes digitales en emprendimientos locales",
+        "area": "Educación para el Trabajo y Computación",
+        "contexto": "Pasco, Perú",
+        "totalPreguntas": 5,
+        "minimoAciertosInsignia": 4,
+        "insignia": {
+            "nombre": "Guardián Cibernético de Pasco",
+            "descripcion": "Reconoce la capacidad de diagnosticar riesgos informáticos y proteger activos digitales en emprendimientos regionales.",
+            "criterio": "Completar las 5 etapas del juego 3D obteniendo al menos 4 respuestas correctas de 5 en el primer intento."
+        }
+    },
+    "preguntas": [
+        {
+            "id": 1,
+            "etapa": 0,
+            "tipo": "opcion_multiple",
+            "contexto": "Cafetería en Chaupimarca",
+            "pregunta": "El dueño recibe un SMS indicando que su cuenta de billetera digital (Yape/Plin) será bloqueada si no ingresa su clave en un enlace acortado. ¿Qué ataque enfrenta y cómo debe actuar?",
+            "opciones": [
+                {
+                    "id": "A",
+                    "texto": "Ransomware; apagar el router."
+                },
+                {
+                    "id": "B",
+                    "texto": "Smishing/Phishing; borrar el mensaje y no abrir el enlace."
+                },
+                {
+                    "id": "C",
+                    "texto": "Spam; reenviar el enlace a sus clientes."
+                }
+            ],
+            "respuestaCorrecta": "B",
+            "retroalimentacion": {
+                "correcta": "Identificaste correctamente un ataque de smishing (suplantación por SMS). Nunca se deben ingresar credenciales desde enlaces externos; verifica siempre desde la aplicación oficial.",
+                "incorrecta": "Revisa el concepto de smishing (phishing por SMS). Los delincuentes envían alertas falsas con enlaces acortados para robar claves; nunca abras el enlace ni reenvíes el mensaje."
+            }
+        },
+        {
+            "id": 2,
+            "etapa": 1,
+            "tipo": "opcion_multiple",
+            "contexto": "Agencia de Turismo en Oxapampa",
+            "pregunta": "Para gestionar reservas desde distintas laptops en su oficina y evitar perder datos si falla un disco duro por cortes eléctricos, ¿qué estrategia de EPT/TI es más segura?",
+            "opciones": [
+                {
+                    "id": "A",
+                    "texto": "Guardar todo solo en el escritorio de una PC."
+                },
+                {
+                    "id": "B",
+                    "texto": "Copiar archivos en un único USB."
+                },
+                {
+                    "id": "C",
+                    "texto": "Aplicar respaldo en la nube sincronizado y copia local (regla 3-2-1)."
+                }
+            ],
+            "respuestaCorrecta": "C",
+            "retroalimentacion": {
+                "correcta": "Ante fallos eléctricos o daños físicos de hardware, el respaldo híbrido (nube sincronizada y copia local) garantiza la continuidad operativa del emprendimiento.",
+                "incorrecta": "Revisa las estrategias de copias de seguridad (regla 3-2-1). Depender de un solo medio físico (PC o USB) expone toda la información del negocio ante cortes eléctricos o fallos de disco."
+            }
+        },
+        {
+            "id": 3,
+            "etapa": 2,
+            "tipo": "opcion_multiple",
+            "contexto": "Cooperativa Agropecuaria en Paucartambo",
+            "pregunta": "Un trabajador accede al correo institucional y a la banca empresarial usando la misma contraseña (Pasco2026). ¿Qué medida fortalece mejor ambas cuentas?",
+            "opciones": [
+                {
+                    "id": "A",
+                    "texto": "Activar la autenticación en dos pasos (2FA) y usar claves únicas."
+                },
+                {
+                    "id": "B",
+                    "texto": "Cambiar una letra de la contraseña cada año."
+                },
+                {
+                    "id": "C",
+                    "texto": "Anotar la clave en un papel pegado al monitor."
+                }
+            ],
+            "respuestaCorrecta": "A",
+            "retroalimentacion": {
+                "correcta": "Usar contraseñas únicas y activar la autenticación en dos pasos (2FA) bloquea accesos no autorizados incluso si una contraseña llega a filtrarse.",
+                "incorrecta": "Revisa el concepto de autenticación multifactor (2FA) y gestión de contraseñas. Reutilizar claves simples compromete todas las cuentas a la vez si una sufre una filtración."
+            }
+        },
+        {
+            "id": 4,
+            "etapa": 3,
+            "tipo": "verdadero_falso",
+            "contexto": "Red Wi-Fi de Feria Tecnológica",
+            "pregunta": "Conectarse a una red Wi-Fi pública abierta sin contraseña en una plaza para transferir facturas electrónicas es seguro siempre que la laptop tenga antivirus actualizado.",
+            "opciones": [
+                {
+                    "id": "A",
+                    "texto": "Verdadero"
+                },
+                {
+                    "id": "B",
+                    "texto": "Falso"
+                }
+            ],
+            "respuestaCorrecta": "B",
+            "retroalimentacion": {
+                "correcta": "Un antivirus protege el equipo contra malware, pero no cifra el tráfico de red. En redes públicas abiertas un atacante puede interceptar tus datos; usa datos móviles o una VPN.",
+                "incorrecta": "Revisa los riesgos de las redes inalámbricas abiertas (ataques Man-in-the-Middle). El antivirus no cifra la conexión; para enviar información financiera usa siempre datos móviles o una VPN."
+            }
+        },
+        {
+            "id": 5,
+            "etapa": 4,
+            "tipo": "opcion_multiple",
+            "contexto": "Tienda de Artesanías en Yanacancha",
+            "pregunta": "Al descargar un programa gratuito de diseño gráfico de una página no oficial, todos los archivos de inventario aparecen encriptados con una extensión extraña pidiendo un pago. ¿Qué ocurrió?",
+            "opciones": [
+                {
+                    "id": "A",
+                    "texto": "Se agotó la memoria RAM."
+                },
+                {
+                    "id": "B",
+                    "texto": "Infección por Ransomware mediante software pirata."
+                },
+                {
+                    "id": "C",
+                    "texto": "Error de actualización del navegador."
+                }
+            ],
+            "respuestaCorrecta": "B",
+            "retroalimentacion": {
+                "correcta": "El software descargado de fuentes no oficiales suele ocultar ransomware, un malware que secuestra y cifra los archivos exigiendo un rescate económico.",
+                "incorrecta": "Revisa el concepto de ransomware y seguridad en descargas. El cifrado inesperado de archivos acompañado de una exigencia de pago es provocado por malware oculto en instaladores no oficiales."
+            }
+        }
+    ]
+}
